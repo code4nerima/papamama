@@ -438,7 +438,7 @@ Papamamap.prototype.getPopupContent = function(feature)
         if (formatNull(h24) !== null) {
             content += '<a href=';
             content += h24;
-            content += '>URL</a>';
+            content += ' target="_blank">保育園ページへ</a>';
         }
         if (formatNull(extra) !== null) {
             content += '延長保育 ';
